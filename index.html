@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head>
-        <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>registration system</title>    
@@ -12,7 +12,7 @@
         
         <link rel="shortcut icon" type="image/x-icon" href="images/lofb1.png"/>
         <!--<link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">-->
-        <link  href="icon/svg-with-js/css/fa-svg-with-js.css" rel="stylesheet">
+        <link href="icon/svg-with-js/css/fa-svg-with-js.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
@@ -25,11 +25,12 @@
                 <li><a class="logo" href="#"><em>syn</em><i>-tax</i></a></li>
 
                 <div class="dropdown myac">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" area-hoshpopup="true" area-expaded="false"><i class="fas fa-user"></i>&nbsp; Accounts </button>
-                    <ul>
-                        <li><a href="t_signin.html"><button type="button" class="dropdown-item">Teachers</button></a></li>
-                        <li><a href="#"><button type="button" class="dropdown-item">Students</button></a></li>
-                    </ul>    
+                    <a id="a1" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dpMLink" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-users"></i>&nbsp; Accounts </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dpMLink">
+                        <li class="dropdown-item"><a href="t_signin.html">Teachers</a></li>
+                        <li class="dropdown-item"><a href="s_signin.html">Students</a></li>
+                    </ul>
                 </div>
 
             </ul>

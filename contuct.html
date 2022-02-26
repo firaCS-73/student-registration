@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Teachers Sign_In</title>    
+        <title>Contact</title>    
         
         <meta name="description" content="student registration project for syntax, the short tearm toutorials institute">
         <meta name="keywords" content="student registration, result processing">
@@ -20,7 +20,7 @@
     
 <body>
 
-    <header id="top-header">
+    <header id="top-header" class="bg bg-danger">
         <div class="top-tol">
             <ul>
                 <li><a class="logo" href="index.html"><em>syn</em><i>-tax</i></a></li>
@@ -29,7 +29,7 @@
                     <a id="a1" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dpMLink" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-users"></i>&nbsp; Accounts </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dpMLink">
-                        <li class="dropdown-item"><a id="active_page" href="#">Teachers</a></li>
+                        <li class="dropdown-item"><a href="s_singin.html">Teachers</a></li>
                         <li class="dropdown-item"><a href="s_singin.html">Students</a></li>
                     </ul>
                 </div>
@@ -45,18 +45,32 @@
                 <li><a href="course.html">Course</a></li>
                 <li><a href="material.html">Material</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contuct.html">Contuct</a></li>
+                <li><a class="active_page" href="#">Contuct</a></li>
             </ul>
         </div>
     </nav>
 
-    <hr>
     <div class="container">
-        <center><h1 class="text-secondary">Teachers Login</h1></center>
+        <center><h1 class="mt-3 text-secondary">Feedback Forms</h1></center>
         <hr>
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <form action="" method="" class="was-validated border p-4 bg-light shadow">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">Frist Name:</lable>
+                            <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter Frist Name" required="required">
+                                <div class="valid-feedback">good</div>
+                                <div class="invalid-feedback">fill-out</div>    
+                        </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label for="lname" class="form-label">Last Name:</lable>
+                            <input type="text" class="form-control" name="lname" id="lname" placeholder="Enter Frist Name" required="required"> 
+                                <div class="valid-feedback">good</div>
+                                <div class="invalid-feedback">fill-out</div>    
+                        </div>
+                    </div>
 
                     <div class="mb-3">
                         <label for="email" class="form-lable">Email:</label>
@@ -66,8 +80,24 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="pswd" class="form-label">Password:</label>
-                        <input type="password" class="form-control" name="pswd" id="pswd" placeholder="Enter Your Password" required=""required>
+                        <label for="phone" class="form-label">Contact No:</label>
+                        <input type="phone" class="form-control" name="phone" id="phone" placeholder="Enter Your Phone Number" required=""required>
+                            <div class="valid-feedback">good</div>
+                            <div class="invalid-feedback">fill-out</div>    
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input type="radio" id="radio1" name="gender" value="male" class="form-check-input">
+                        <lable for="radio1" class="form-check-label">Male</lable>
+                    </div>  
+                    <div class="form-check mb-3">
+                        <input type="radio" id="radio2" name="gender" value="female" class="form-check-input">
+                        <lable for="radio2" class="form-check-label">Female</lable>
+                    </div>                      
+
+                    <div class="mb-3">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="6" name="text" id="comment" placeholder="Enter Your Comment Here..." required="required"></textarea>
                             <div class="valid-feedback">good</div>
                             <div class="invalid-feedback">fill-out</div>    
                     </div>
@@ -77,11 +107,9 @@
                         <input type="checkbox" id="checkbox" name="remember" class="form-check-input">
                     </div>
 
-                    <button type="submit" class="btn-lg btn-secondary mb-3 col-sm-12">Login</button>
+                    <button type="submit" class="btn-lg btn-secondary mb-3 col-sm-12">Submit</button>
 
                 </form>
-                
-                <p class="mt-3 text-center">For Registration click <a href="#">&nbsp;Here</a></p>
 
             </div>
         </div>

@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.8em;
     color: #111;
     background-color: #f4f4f4;
@@ -95,6 +95,29 @@ a:hover {
 #top-header .top-tol .myac {
     float: right;
 }
+#top-header .top-tol .myac #a1 {
+    text-decoration: none; 
+    color: white; 
+    border: 1px solid white;
+    font-weight: bold; 
+    font-size: 16px;"
+}
+#top-header .top-tol .myac ul li a {
+    text-decoration: none; 
+    border-radius: 5px;
+    color: #111; 
+    font-size: 14px;
+    padding: 10px 20px;
+}
+#top-header .top-tol .myac ul li a:hover {
+    background-color: skyblue;
+    transition: .4s;
+    border-radius: 5px;
+    font-size: 14.5px;
+}
+#top-header .top-tol .myac #active_page {
+    background-color: skyblue;
+}
 #top-header .top-tol .dropdown-item {
     height: 40px;
     line-height: 40px;
@@ -121,7 +144,7 @@ a:hover {
 #nav-bar ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 14.5px;
+    font-size: 16px;
     font-weight: bold;
     margin-right: 15px; 
 }
@@ -130,6 +153,7 @@ a:hover {
     color: deepskyblue;
 }
 #nav-bar ul li a:hover {
+    font-style: italic;
     color: skyblue;
     transition: .4s;
 }
