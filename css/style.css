@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.8em;
     color: #111;
     background-color: #f4f4f4;
@@ -100,7 +100,7 @@ a:hover {
     color: white; 
     border: 1px solid white;
     font-weight: bold; 
-    font-size: 16px;"
+    font-size: 15px;"
 }
 #top-header .top-tol .myac ul li a {
     text-decoration: none; 
@@ -144,7 +144,7 @@ a:hover {
 #nav-bar ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     margin-right: 15px; 
 }
@@ -194,7 +194,6 @@ article {
     margin-left: 20px;
     background-color: #fff;
     color: #555555;
-;
 }
 
 #fotter {
