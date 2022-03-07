@@ -126,7 +126,7 @@ a:hover {
     display: block;
 }
 
-#nav-bar {
+/*#nav-bar {
     height: 60px;
     background-color: #000;
 }
@@ -156,7 +156,7 @@ a:hover {
     font-style: italic;
     color: skyblue;
     transition: .4s;
-}
+}*/
 
 #banner {
     background-image: url('../images/technology-improves-education.jpg');
@@ -204,7 +204,7 @@ article {
     padding: 20px;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 768px) {
     #main {
         flex: 3; 
         flex-direction: column;
